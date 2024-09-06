@@ -1,0 +1,615 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Styling of navigation bar */
+#navbar{
+    height: 25px;
+    width: 830px;
+    background-color: rgba(246, 252, 252, 0.604);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* position: static; */
+
+    /* for making navbar graphics */
+    overflow: hidden;
+  
+  position: fixed; /*   Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  /* width: 100%; */
+}
+
+#navContainer{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* ========Styling of home page */
+#HomeDiv{
+    height: 400px;
+    width: 850px;
+    background-color:#FFB30E;
+    display: flex;
+    
+    
+}
+#textDiv{
+    
+   display: block;
+    
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#imgDiv{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: -50px;
+}
+#img1:hover{
+    padding-top: 50px;
+    transition: 1s ease-in-out;
+}
+
+/* =========Styling of 2nd cards page============================== */
+
+#cardDiv{
+    height: 230px;
+    width: 850px;
+    background-color:white;
+    
+    
+
+}
+
+#card{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 700px;
+    /* background-color: rgb(249, 252, 252); */
+    position: relative !important;
+    margin-left: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+
+#h1{
+    color: rgb(238, 240, 230);
+   
+}
+
+#card1{
+    height: 200px;
+    width: 150px;
+    position: relative;
+
+    
+}
+/* =================styling of 3rd div of how it works============================= */
+
+#Main_div3{
+    height: 300px;
+    display: flex;
+    width: 850px;
+    background-color:rgb(248, 243, 235);
+   text-align: center;
+   
+}
+
+#Main_div3_container{
+   display: flex;
+   justify-content: space-between;
+    height: 250px;
+    width: 700px;
+    /* background-color: rgb(25, 226, 226); */
+    position: relative;
+    /* margin-left: 2px; */
+    justify-content: center;
+    gap: 20px;
+   
+
+}
+
+#heading_3{
+    margin-left: 300px;
+    margin-bottom: 20px;
+            width: 200px; /* Width of the card */
+            
+            text-align: center;
+            
+}
+
+/* ==========Styling of popular item page============== */
+
+#popDiv{
+    height: 300px;
+    width: 850px;
+    background-color:white;
+    
+    
+
+}
+
+#popcard{
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    width: 700px;
+    /* background-color: rgb(41, 125, 125); */
+    position: relative !important;
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    
+
+}
+
+
+#h1{
+    color: rgb(238, 240, 230);
+   
+}
+
+#popcard1{
+    height: 100px;
+    width: 150px;
+    position: relative;
+    margin-top: 40px;
+
+    
+}
+
+#popHeading{
+    margin-left: 300px;
+    /* margin-bottom: 10px; */
+    width: 200px; /* Width of the card */
+    text-align: center;
+    margin-top: 10px;
+    height: 5px;
+            
+    
+}
+
+
+/* ========styling featured restraurant section============== */
+#MainfeaDiv{
+    height: 550px;
+    width: 850px;
+    /* background-color: rgba(186, 186, 239, 0.352); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px 10px 30px 10px; */
+    margin-top: 0px;
+}
+
+#MainfeaDiv_heading{
+    height: 500px;
+    width: 90%;
+    /* background-color: aqua; */
+    /* display: flex;  */
+    text-align: center;
+    margin-top: 0px;
+    
+}
+
+
+
+/* main container */
+#MainfeaDiv_container{
+    height: 450px;
+    width: 700px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.feaContainer img{
+    height: 120px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.feaContainer{
+    height: 200px;
+    width: 150px;
+}
+.feacontainer_2div img{
+    height: 35px;
+    width: 35px;
+}
+
+.feacontainer_2div {
+    height: 40px;
+    width: 150px;
+    /* background-color: aquamarine; */
+    display: flex;
+    
+}
+
+.btnFeatomm{
+    background-color: rgb(247, 220, 191);
+    border: none;
+    border-radius: 3px;
+}
+
+.btnFea{
+    background-color: rgb(147, 247, 213);
+    border: none;
+    border-radius: 3px;
+}
+/* =============styling of search food section==================== */
+
+#searchFood{
+    height: 250px;
+    width: 750px;
+    /* background-color: rgb(222, 231, 231); */
+    margin-top: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+
+#searchFood_text{
+    height: 40px;
+    width: 750px;
+    /* background-color: #FFB30E; */
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+   
+
+   
+    
+}
+ 
+.moveBtn{
+   height: 30px;
+   margin-top: 5px;
+   border-radius: 40%;
+   background-color: #FFB30E;
+   display: flex;
+   
+   align-items: center; 
+    
+}
+    
+#viewAllId{
+    height: 35px;
+    width: 150px;
+    margin-top: 3px;
+    margin-left: 350px;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    
+
+} 
+
+
+/* container */
+#searchContainer{
+    height: 200px;
+    width: 750px;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.divSearchDiv{
+    height: 130px;
+    width: 100px;
+    /* background-color: pink; */
+    
+}
+
+.searchImg{
+    width: 100px;       /* Width of the image */
+    height: 100px;      /* Height of the image (should be equal to width) */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image covers the area without distortion */
+    display: block;     /* Makes sure the image behaves as a block-level element */
+    
+     
+}
+
+.textImg{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+
+/* ========== Styling install the app section============ */
+
+#installDiv{ 
+    width: 850px;              /* Set the width of the div */
+    height: 400px;             /* Set the height of the div */
+    background-image: url('https://themewagon.github.io/foodwagon/v1.0.0/assets/img/gallery/cta-one-bg.png'); /* URL of the background image */
+    background-size: cover;    /* Cover the entire div area */
+    background-position: center; /* Center the image within the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#installDiv_container{
+    height: 350px;
+    width: 650px;
+    /* background-color: rgb(247, 242, 200); */
+    margin-top: 54px;
+}
+
+
+
+
+#logoDiv{
+    height: 100px;
+    width: 630px;
+    background-color: rgb(249, 249, 246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+
+    
+}
+
+.logoInstall{
+    height: 60px;
+    width: 160px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid rgb(14, 15, 14);
+}
+
+.fontColor{
+    background: linear-gradient(50deg, #fb3c00, #ffbb10);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.imgInstall{
+    height: 70px;
+    width: 70px;
+}
+
+/* second div */
+#textDivInstall{
+    height: 180px;
+    /* background-color: pink; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#textDivInstall_container{
+    height: 180px;
+    width: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+#g_play{
+    margin-bottom: 70px;
+}
+
+
+/* ======best deal styling=================== */
+
+#bestdealId{
+    width: 850px;           
+    height: 900px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#bestdealId_container{
+    height: 850px;
+    width: 800px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.bestdealId_container_div1{
+    height: 250px;
+    width: 600px;
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    /* border: 1px solid ; */
+    /* padding-top: px; */
+}
+
+.bestdealId_container_div1_text{
+    height: 200px;
+    width: 40%;
+    /* background-color: rgb(227, 166, 210); */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 10px;
+    padding: 10px 20px 0px 20px;
+    
+    
+
+
+}
+
+.bestdealId_container_div1_img{
+    height: 250px;
+    width: 60%;
+    /* background-color: rgb(174, 229, 238); */
+
+}
+
+
+/* ====== are you ready section =========*/
+
+#readyMainDiv{
+    height: 215px;
+    width: 850px;
+    background-image: url('https://themewagon.github.io/foodwagon/v1.0.0/assets/img/gallery/cta-two-bg.png'); /* URL of the background image */
+    background-size: cover;    /* Cover the entire div area */
+    background-position: center; /* Center the image within the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#readyMainDiv_container{
+    height: 180px;
+    width: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =======footer div section============= */
+
+#footerMain_div{
+    height: 850px;
+    width: 850px;
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerMain_div_container{
+    height:850px ;
+    width: 800px;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 15px;
+    
+}
+
+
+.footerMain_container_div1{
+    height: 220px;
+    width: 750px;
+    /* background-color: azure; */
+    color: white;
+
+}
+
+#ourDiv{
+    height: 20px;
+    width: 750px;
+    /* background-color: palegoldenrod; */
+}
+
+#container_div1{
+    height: 187px;
+    width: 750px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    /* color: white; */
+}
+
+.container_div1_1{
+    /* height: 160px; */
+    width: 120px;   
+    /* background-color: bisque; */
+    color: rgb(248, 245, 245);
+   
+   height: fit-content;
+
+}
+
+
+
+/* second div footer section */
+
+
+
+/* =====follow us page====== */
+
+#followUs_Div{
+    height: 210px;
+    width: 750px;
+    /* background-color: azure; */
+    /* margin-top: 10px; */
+}
+
+#socialMediaLogo{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: space-between; */
+    /* background-color: #fb3c00; */
+    margin-top: 10px;
+}
+
+.logoSocialMedia{
+    height: 15px;
+    width: 15px;
+    background-color: beige;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+#rightsDiv{
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
